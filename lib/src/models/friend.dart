@@ -1,0 +1,18 @@
+import 'package:stadia_app/src/pages/utils/images_path.dart';
+
+class Friend {
+  final String name;
+  final String imagePath;
+  final bool isOnline;
+
+  Friend({this.name, this.imagePath, this.isOnline});
+}
+
+final friends = [
+  Friend(name: "Jennie", imagePath: friend_jeenie, isOnline: true),
+  Friend(name: "Gena", imagePath: friend_gena, isOnline: false),
+  Friend(name: "Michelle", imagePath: friend_michelle, isOnline: false),
+  Friend(name: "Trish", imagePath: friend_trish, isOnline: false),
+  Friend(name: "Gena", imagePath: friend_gena, isOnline: false),
+  Friend(name: "Jennie", imagePath: friend_jeenie, isOnline: false),
+];
